@@ -1,9 +1,22 @@
 import React from 'react';
 
-function App() {
+//components
+import Header from './components/Header';
+import Home from './components/Home'
+
+//styles
+import { GlobalStyle } from './GlobalStyles';
+
+
+
+const App = () => {
   return (
     <div className="App">
-      Start here.
+      <Header>
+
+      </Header>
+      <Home />
+      <GlobalStyle />
     </div>
   );
 }
