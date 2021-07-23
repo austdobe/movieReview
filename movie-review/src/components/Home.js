@@ -1,4 +1,4 @@
-import React , { useState, useEffect }from "react";
+import React from "react";
 
 
 //config
@@ -27,11 +27,9 @@ const Home = ( ) => {
         error, 
         searchTerm, 
         setSearchTerm, 
-        setIsLoadingMore } = useHomeFetch()
+        setIsLoadingMore 
+    } = useHomeFetch()
 
-   
-   
-    console.log(state)
 
     if(error) return <div>Something went wrong ....</div>
 
@@ -47,6 +45,7 @@ const Home = ( ) => {
             <SearchBar setSearchTerm={setSearchTerm} />
             <Grid header={ searchTerm ? 'Search Results': 'Popular Movies'}>
                 {state.results.map(movie => (
+                    
                     <Thumb
                         key={movie.id}
                         clickable
@@ -62,11 +61,9 @@ const Home = ( ) => {
             {loading && 
                 <Spinner />
             }
-            {state.page < state.total_pages && !loading && 
-                <Button 
-                    text='Load More'
-                    callback ={() => setIsLoadingMore(true)}
-                />
+            {state.page < state.total_pages && !loading && ( 
+                <Button text='Load More' callback={() => setIsLoadingMore(true)}/>
+            )
             }
         </>
     )
