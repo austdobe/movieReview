@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/movieReview/static/js/main.3ab329a4.chunk.js",
+    "main.js.map": "/movieReview/static/js/main.3ab329a4.chunk.js.map",
+    "runtime-main.js": "/movieReview/static/js/runtime-main.5b1372dd.js",
+    "runtime-main.js.map": "/movieReview/static/js/runtime-main.5b1372dd.js.map",
+    "static/js/2.53c1cb43.chunk.js": "/movieReview/static/js/2.53c1cb43.chunk.js",
+    "static/js/2.53c1cb43.chunk.js.map": "/movieReview/static/js/2.53c1cb43.chunk.js.map",
+    "index.html": "/movieReview/index.html",
+    "static/js/2.53c1cb43.chunk.js.LICENSE.txt": "/movieReview/static/js/2.53c1cb43.chunk.js.LICENSE.txt",
+    "static/media/no_image.22d2aa4d.jpg": "/movieReview/static/media/no_image.22d2aa4d.jpg",
+    "static/media/react-movie-logo.35f4d399.svg": "/movieReview/static/media/react-movie-logo.35f4d399.svg",
+    "static/media/search-icon.bb4c697f.svg": "/movieReview/static/media/search-icon.bb4c697f.svg",
+    "static/media/tmdb_logo.e7029961.svg": "/movieReview/static/media/tmdb_logo.e7029961.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b1372dd.js",
+    "static/js/2.53c1cb43.chunk.js",
+    "static/js/main.3ab329a4.chunk.js"
+  ]
+}
