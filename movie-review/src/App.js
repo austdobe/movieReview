@@ -12,7 +12,7 @@ import NotFound from './components/NotFound';
 import { GlobalStyle } from './GlobalStyles';
 
 const App = () => (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
