@@ -1,6 +1,6 @@
 import React from 'react';
 //routing
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 
 //components
 import Header from './components/Header';
@@ -12,7 +12,7 @@ import NotFound from './components/NotFound';
 import { GlobalStyle } from './GlobalStyles';
 
 const App = () => (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
