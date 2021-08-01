@@ -42,7 +42,13 @@ export const Text = styled.div `
     .rating-directors{
         display: flex;
         justify-content: flex-start;
+    }
+    .releaseDate{
+        padding: 0 40px 0 0;
 
+        p{
+            margin: 0;
+        }
     }
     .score{
         display: flex;

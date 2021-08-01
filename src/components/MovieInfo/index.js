@@ -28,6 +28,10 @@ const MovieInfo = ({ movie }) => (
 
                 <div className="rating-directors">
                     <div>
+                        <h3>Release Date</h3>
+                        <div className='releaseDate'>{movie.release_date}</div>
+                    </div>
+                    <div>
                         <h3>Rating</h3>
                         <div className='score'>{movie.vote_average}</div>
                     </div>
@@ -37,6 +41,7 @@ const MovieInfo = ({ movie }) => (
                             <p key= {director.credit_id}>{director.name}</p>
                         ))}
                     </div>
+                    
                 </div>
 
             </Text>
