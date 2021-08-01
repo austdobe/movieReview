@@ -27,9 +27,9 @@ const MovieInfo = ({ movie }) => (
                 <p>{movie.overview}</p>
 
                 <div className="rating-directors">
-                    <div>
+                    <div className='releaseDate'>
                         <h3>Release Date</h3>
-                        <div className='releaseDate'>{movie.release_date}</div>
+                        <div >{movie.release_date}</div>
                     </div>
                     <div>
                         <h3>Rating</h3>
