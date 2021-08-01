@@ -37,6 +37,7 @@ export const Text = styled.div `
     width: 100%;
     padding: 20px 40px;
     color: var(--white);
+    max-width: fit-content;
     overflow: hidden;
 
     .rating-directors{
