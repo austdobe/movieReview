@@ -60,7 +60,7 @@ export const Text = styled.div `
         color: #000;
         font-weight: 800;
         border-radius: 50%;
-        margin: 0;
+        margin: 0 auto;
     }
     .director{
         margin: 0 0 0 40px;
